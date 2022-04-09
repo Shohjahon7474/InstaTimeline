@@ -20,9 +20,11 @@
 		848296A328009841008AA520 /* SinginPushing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848296A228009841008AA520 /* SinginPushing.swift */; };
 		848296A528009853008AA520 /* SingupPushing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848296A428009853008AA520 /* SingupPushing.swift */; };
 		8487843F28013D240076C2FB /* HomeScreen1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8487843E28013D240076C2FB /* HomeScreen1.swift */; };
-		8487844128013D310076C2FB /* HomeScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8487844028013D310076C2FB /* HomeScreen2.swift */; };
 		8487844528013F200076C2FB /* StarterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8487844428013F200076C2FB /* StarterScreen.swift */; };
 		84878447280149FE0076C2FB /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84878446280149FE0076C2FB /* Status.swift */; };
+		848784492801F0560076C2FB /* ItemPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848784482801F0560076C2FB /* ItemPost.swift */; };
+		8487844B2801FE230076C2FB /* ItemStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8487844A2801FE230076C2FB /* ItemStory.swift */; };
+		8487844D280201920076C2FB /* addStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8487844C280201920076C2FB /* addStory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,9 +61,11 @@
 		848296A228009841008AA520 /* SinginPushing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinginPushing.swift; sourceTree = "<group>"; };
 		848296A428009853008AA520 /* SingupPushing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingupPushing.swift; sourceTree = "<group>"; };
 		8487843E28013D240076C2FB /* HomeScreen1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen1.swift; sourceTree = "<group>"; };
-		8487844028013D310076C2FB /* HomeScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen2.swift; sourceTree = "<group>"; };
 		8487844428013F200076C2FB /* StarterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterScreen.swift; sourceTree = "<group>"; };
 		84878446280149FE0076C2FB /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		848784482801F0560076C2FB /* ItemPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemPost.swift; sourceTree = "<group>"; };
+		8487844A2801FE230076C2FB /* ItemStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStory.swift; sourceTree = "<group>"; };
+		8487844C280201920076C2FB /* addStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addStory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,8 +158,10 @@
 				8487844428013F200076C2FB /* StarterScreen.swift */,
 				84878446280149FE0076C2FB /* Status.swift */,
 				848296A228009841008AA520 /* SinginPushing.swift */,
+				848784482801F0560076C2FB /* ItemPost.swift */,
+				8487844C280201920076C2FB /* addStory.swift */,
+				8487844A2801FE230076C2FB /* ItemStory.swift */,
 				848296A428009853008AA520 /* SingupPushing.swift */,
-				8487844028013D310076C2FB /* HomeScreen2.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -301,8 +307,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				848296A328009841008AA520 /* SinginPushing.swift in Sources */,
+				8487844D280201920076C2FB /* addStory.swift in Sources */,
 				8482967728008D05008AA520 /* Persistence.swift in Sources */,
-				8487844128013D310076C2FB /* HomeScreen2.swift in Sources */,
 				8482969E28008D77008AA520 /* SinginScreen.swift in Sources */,
 				84878447280149FE0076C2FB /* Status.swift in Sources */,
 				8482967A28008D05008AA520 /* SwiftUILogin.xcdatamodeld in Sources */,
@@ -311,6 +317,8 @@
 				8487843F28013D240076C2FB /* HomeScreen1.swift in Sources */,
 				848296A028008D95008AA520 /* SingupScreen.swift in Sources */,
 				8487844528013F200076C2FB /* StarterScreen.swift in Sources */,
+				8487844B2801FE230076C2FB /* ItemStory.swift in Sources */,
+				848784492801F0560076C2FB /* ItemPost.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

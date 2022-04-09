@@ -17,7 +17,7 @@ struct SinginPushing: View {
         NavigationView{
         VStack( spacing: 10){
             Spacer()
-            Image("man").resizable()
+            Image("profile").resizable()
                 .frame(width: 100, height: 100).cornerRadius(60)
             
             TextField("User ID",text:$email)
@@ -48,7 +48,7 @@ struct SinginPushing: View {
                     }).font(.system(size: 18)).foregroundColor(.blue)
             }
         }.padding()
-                .navigationBarTitle("Instagram")
+                .navigationBarTitle("Topuz")
                 .navigationBarTitleDisplayMode(.inline)
         }
         
