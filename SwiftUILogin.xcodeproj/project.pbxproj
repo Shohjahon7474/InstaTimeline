@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8482966E28008D02008AA520 /* SwiftUILoginApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482966D28008D02008AA520 /* SwiftUILoginApp.swift */; };
-		8482967028008D02008AA520 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482966F28008D02008AA520 /* ContentView.swift */; };
 		8482967228008D05008AA520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8482967128008D05008AA520 /* Assets.xcassets */; };
 		8482967528008D05008AA520 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8482967428008D05008AA520 /* Preview Assets.xcassets */; };
 		8482967728008D05008AA520 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482967628008D05008AA520 /* Persistence.swift */; };
@@ -16,6 +15,14 @@
 		8482968428008D06008AA520 /* SwiftUILoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482968328008D06008AA520 /* SwiftUILoginTests.swift */; };
 		8482968E28008D06008AA520 /* SwiftUILoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482968D28008D06008AA520 /* SwiftUILoginUITests.swift */; };
 		8482969028008D06008AA520 /* SwiftUILoginUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482968F28008D06008AA520 /* SwiftUILoginUITestsLaunchTests.swift */; };
+		8482969E28008D77008AA520 /* SinginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482969D28008D77008AA520 /* SinginScreen.swift */; };
+		848296A028008D95008AA520 /* SingupScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482969F28008D95008AA520 /* SingupScreen.swift */; };
+		848296A328009841008AA520 /* SinginPushing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848296A228009841008AA520 /* SinginPushing.swift */; };
+		848296A528009853008AA520 /* SingupPushing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848296A428009853008AA520 /* SingupPushing.swift */; };
+		8487843F28013D240076C2FB /* HomeScreen1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8487843E28013D240076C2FB /* HomeScreen1.swift */; };
+		8487844128013D310076C2FB /* HomeScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8487844028013D310076C2FB /* HomeScreen2.swift */; };
+		8487844528013F200076C2FB /* StarterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8487844428013F200076C2FB /* StarterScreen.swift */; };
+		84878447280149FE0076C2FB /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84878446280149FE0076C2FB /* Status.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +45,6 @@
 /* Begin PBXFileReference section */
 		8482966A28008D02008AA520 /* SwiftUILogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8482966D28008D02008AA520 /* SwiftUILoginApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILoginApp.swift; sourceTree = "<group>"; };
-		8482966F28008D02008AA520 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8482967128008D05008AA520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8482967428008D05008AA520 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8482967628008D05008AA520 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +54,14 @@
 		8482968928008D06008AA520 /* SwiftUILoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUILoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8482968D28008D06008AA520 /* SwiftUILoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILoginUITests.swift; sourceTree = "<group>"; };
 		8482968F28008D06008AA520 /* SwiftUILoginUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILoginUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8482969D28008D77008AA520 /* SinginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinginScreen.swift; sourceTree = "<group>"; };
+		8482969F28008D95008AA520 /* SingupScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingupScreen.swift; sourceTree = "<group>"; };
+		848296A228009841008AA520 /* SinginPushing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinginPushing.swift; sourceTree = "<group>"; };
+		848296A428009853008AA520 /* SingupPushing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingupPushing.swift; sourceTree = "<group>"; };
+		8487843E28013D240076C2FB /* HomeScreen1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen1.swift; sourceTree = "<group>"; };
+		8487844028013D310076C2FB /* HomeScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen2.swift; sourceTree = "<group>"; };
+		8487844428013F200076C2FB /* StarterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterScreen.swift; sourceTree = "<group>"; };
+		84878446280149FE0076C2FB /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				8482966D28008D02008AA520 /* SwiftUILoginApp.swift */,
-				8482966F28008D02008AA520 /* ContentView.swift */,
-				8482967128008D05008AA520 /* Assets.xcassets */,
-				8482967628008D05008AA520 /* Persistence.swift */,
-				8482967828008D05008AA520 /* SwiftUILogin.xcdatamodeld */,
+				848296A128008DAD008AA520 /* apputilis */,
+				8482969C28008D45008AA520 /* Screens */,
 				8482967328008D05008AA520 /* Preview Content */,
 			);
 			path = SwiftUILogin;
@@ -131,6 +143,31 @@
 				8482968F28008D06008AA520 /* SwiftUILoginUITestsLaunchTests.swift */,
 			);
 			path = SwiftUILoginUITests;
+			sourceTree = "<group>";
+		};
+		8482969C28008D45008AA520 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8482969D28008D77008AA520 /* SinginScreen.swift */,
+				8482969F28008D95008AA520 /* SingupScreen.swift */,
+				8487843E28013D240076C2FB /* HomeScreen1.swift */,
+				8487844428013F200076C2FB /* StarterScreen.swift */,
+				84878446280149FE0076C2FB /* Status.swift */,
+				848296A228009841008AA520 /* SinginPushing.swift */,
+				848296A428009853008AA520 /* SingupPushing.swift */,
+				8487844028013D310076C2FB /* HomeScreen2.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		848296A128008DAD008AA520 /* apputilis */ = {
+			isa = PBXGroup;
+			children = (
+				8482967128008D05008AA520 /* Assets.xcassets */,
+				8482967628008D05008AA520 /* Persistence.swift */,
+				8482967828008D05008AA520 /* SwiftUILogin.xcdatamodeld */,
+			);
+			path = apputilis;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +300,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848296A328009841008AA520 /* SinginPushing.swift in Sources */,
 				8482967728008D05008AA520 /* Persistence.swift in Sources */,
+				8487844128013D310076C2FB /* HomeScreen2.swift in Sources */,
+				8482969E28008D77008AA520 /* SinginScreen.swift in Sources */,
+				84878447280149FE0076C2FB /* Status.swift in Sources */,
 				8482967A28008D05008AA520 /* SwiftUILogin.xcdatamodeld in Sources */,
-				8482967028008D02008AA520 /* ContentView.swift in Sources */,
+				848296A528009853008AA520 /* SingupPushing.swift in Sources */,
 				8482966E28008D02008AA520 /* SwiftUILoginApp.swift in Sources */,
+				8487843F28013D240076C2FB /* HomeScreen1.swift in Sources */,
+				848296A028008D95008AA520 /* SingupScreen.swift in Sources */,
+				8487844528013F200076C2FB /* StarterScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
